@@ -57,9 +57,9 @@ class ResultActivity : AppCompatActivity(), ResultContract.View {
     }
 
     override fun setAnswers() {
-        correctAns.text = intent.getStringExtra("correct")
-        wrongAns.text = intent.getStringExtra("wrong")
-        skippedAns.text = intent.getStringExtra("skip")
+        correctAns.text = intent.getStringExtra("correct").toString()
+        wrongAns.text = intent.getStringExtra("wrong").toString()
+        skippedAns.text = intent.getStringExtra("skip").toString()
 
         back2menu.setOnClickListener { presenter.clickBtnBackMenu() }
     }
