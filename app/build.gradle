@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'uz.gita.quizappkotlin'
+    namespace 'uz.gita.quizappkotlin_bek'
     compileSdk 33
 
     defaultConfig {
-        applicationId "uz.gita.quizappkotlin"
+        applicationId "uz.gita.quizappkotlin_bek"
         minSdk 24
         targetSdk 33
         versionCode 1
